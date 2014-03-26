@@ -22,7 +22,7 @@ public class WebtableSteps {
     SalesForceUtilities sf = new SalesForceUtilities(driver);
 
     @Given("^A link to the webpage$")
-    public void that_JS_confirm_popup_is_launched() throws Throwable {
+    public void readtable() throws Throwable {
         //A Sample to read the rows of data from the Webtable
         //// driver.get("http://www.w3schools.com/js/tryit.asp?filename=tryjs_confirm");
         driver.get("http://webdesign.about.com/od/examples/l/bltables.htm");
@@ -41,7 +41,7 @@ public class WebtableSteps {
     }
 
     @Then("^The contents of the first table are read$")
-    public void The_popup_should_be_closed_successfully() throws Throwable {
+    public void tableread() throws Throwable {
         // Express the Regexp above with the code you wish you had
     }
 }
