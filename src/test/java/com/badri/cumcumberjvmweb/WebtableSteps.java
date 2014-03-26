@@ -21,7 +21,7 @@ public class WebtableSteps {
     FirefoxDriver driver = new FirefoxDriver();
     SalesForceUtilities sf = new SalesForceUtilities(driver);
 
-    @Given("^A link to the webpage$")
+    @Given("^a link to the webpage$")
     public void readtable() throws Throwable {
         //A Sample to read the rows of data from the Webtable
         //// driver.get("http://www.w3schools.com/js/tryit.asp?filename=tryjs_confirm");
