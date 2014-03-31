@@ -10,7 +10,7 @@ import org.junit.Assert;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
 /**
- *
+ * An Illustration on simulation of forward and backward buttons using Webdriver
  * @author badris
  */
 public class NavigateSteps {
@@ -39,9 +39,7 @@ public class NavigateSteps {
         String forwardURL=driver.getTitle();
         Assert.assertTrue(forwardURL.contentEquals("Yahoo!7"));
         driver.quit();
-        // Express the Regexp above with the code you wish you had
-
-    }
+      }
 
     
 }
