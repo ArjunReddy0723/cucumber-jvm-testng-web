@@ -42,6 +42,6 @@ public class WebtableSteps {
 
     @Then("^The contents of the first table are read$")
     public void tableread() throws Throwable {
-        // Express the Regexp above with the code you wish you had
+        driver.quit();
     }
 }
